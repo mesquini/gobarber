@@ -1,5 +1,15 @@
 <h1 align='center'>GoBarber</h1>
 <br />
+<h1 align="center"> 
+<img src="https://user-images.githubusercontent.com/59603768/74477739-9de97e80-4e8a-11ea-861b-bc3956a8989c.png">
+</h1>
+<h3 align="center">
+<strong>The application under development is an app for a fictional beauty service provider, GoBarber</strong>
+</h3>  <br />
+
+<h3 align="center">
+  :construction: In construction :construction:
+</h3>
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -37,7 +47,7 @@ This project was developed to studying JSON and React with the following technol
  $ git clone https://github.com/mesquini/gobarber
 
 > cd gobarber
-> use file .json in the [Insomnia](https://insomnia.rest/download/)
+> use file .json in the Insomnia
 > cd backend
 > yarn install
 > yarn dev
