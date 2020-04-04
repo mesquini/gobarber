@@ -1,4 +1,5 @@
 import File from '../models/File';
+import User from '../models/User';
 
 class FileController {
   async store(req, res) {
@@ -8,6 +9,10 @@ class FileController {
       name,
       path,
     });
+
+    const user = await User.findByPk(req.userId);
+    await user.update({ avatar_id: file.id });
+
     return res.json(file);
   }
 }
