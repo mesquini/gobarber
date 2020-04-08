@@ -10,9 +10,6 @@ class FileController {
       path,
     });
 
-    const user = await User.findByPk(req.userId);
-    await user.update({ avatar_id: file.id });
-
     return res.json(file);
   }
 }

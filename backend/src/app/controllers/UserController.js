@@ -74,12 +74,10 @@ class UserController {
     });
 
     return res.json({
-      user: {
-        id,
-        name,
-        email,
-        avatar,
-      },
+      id,
+      name,
+      email,
+      avatar,
     });
   }
 }
